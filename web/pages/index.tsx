@@ -2,7 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+interface HomeProps {
+  count: number;
+}
+
+export default function Home(props: HomeProps) {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,6 +23,7 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
+          Count: {props.count}
         </p>
 
         <div className={styles.grid}>
@@ -68,4 +73,15 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export const getServerSideProps = async () => {
+  const res = await fetch('http://localhost:3333/pools/count');
+  const data = await res.json();
+
+  return {
+    props: {
+      count: data.count,
+    }
+  }
 }
