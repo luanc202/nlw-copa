@@ -7,6 +7,7 @@ import { Pools } from './src/screens/Pools';
 import { Loading } from './src/components/Loading';
 
 import { THEME } from './src/styles/theme';
+import { Routes } from "./src/routes";
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_500Medium, Roboto_700Bold });
@@ -20,7 +21,7 @@ export default function App() {
           translucent
         />
         {
-          fontsLoaded ? <Pools /> : <Loading />
+          fontsLoaded ? <Routes /> : <Loading />
         }
       </AuthContextProvider>
     </NativeBaseProvider>
