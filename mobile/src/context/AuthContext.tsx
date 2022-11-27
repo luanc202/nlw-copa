@@ -3,6 +3,7 @@ import * as Google from 'expo-auth-session/providers/google';
 import * as AuthSession from 'expo-auth-session';
 import * as WebBrowser from 'expo-web-browser';
 import { api } from '../services/api';
+import { GOOGLE_CLIENT_ID } from '@env';
 
 WebBrowser.maybeCompleteAuthSession();
 
@@ -29,7 +30,7 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
 
   const [request, response, promptAsync] = Google.useAuthRequest({
     
-    clientId: '671225114129-6qqq16qvkedfsjghdd11m3rn59sa7s2d.apps.googleusercontent.com',
+    clientId: GOOGLE_CLIENT_ID,
     redirectUri: AuthSession.makeRedirectUri({ useProxy: true }),
     scopes: ['profile', 'email']
   });
