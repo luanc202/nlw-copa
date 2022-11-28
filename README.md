@@ -25,7 +25,7 @@
 
 <img src=".github/imagem-nlw.png">
 
-<h2><a name="ptbr">🇬🇧EN</a></h2>
+<h2><a name="en">🇬🇧EN</a></h2>
 
 ### Em Português [aqui 🇧🇷](#ptbr)
 ## 💻 Project
