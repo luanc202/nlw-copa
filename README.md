@@ -72,6 +72,10 @@ You will need an [Figma](http://figma.com/) account.
 
 This project is under MIT license. See file [LICENSE](LICENSE) for more detail.
 
+## 📲 Contact
+
+<a href="hhttps://www.linkedin.com/in/luancfalves/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+
 ---
 
 <h2><a name="ptbr">🇧🇷PT-BR</a></h2>
