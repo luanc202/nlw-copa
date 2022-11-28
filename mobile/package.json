@@ -17,6 +17,7 @@
     "axios": "^1.2.0",
     "country-list": "^2.2.0",
     "dayjs": "^1.11.6",
+    "dotenv": "^16.0.3",
     "expo": "~46.0.16",
     "expo-auth-session": "3.7.1",
     "expo-font": "~10.2.0",
@@ -36,7 +37,6 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/country-list": "^2.1.1",
-    "react-native-dotenv": "^3.4.2",
     "react-native-svg-transformer": "^1.0.0"
   },
   "overrides": {
