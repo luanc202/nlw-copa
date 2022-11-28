@@ -1,3 +1,14 @@
+<h2><a name="ptbr">🇬🇧EN</a></h2>
+
+### Em Português [aqui 🇧🇷](#ptbr)
+
+## 🚀 How to run
+
+**For this project to work correctly, the server must be running.**
+
+- Install the packages with `npm install` or `yarn install`.
+- Run `npm run dev` or `yarn dev` to start the web client.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -27,8 +38,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2><a name="ptbr">🇧🇷PT-BR</a></h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### In English [here 🇬🇧](#en)
+
+
+## 🚀 Como executar
+
+**Para que esse projeto funcione corretamente, é preciso estar com o servidor rodando.**
+
+- Instale os pacotes com `npm install` ou `yarn install`.
+- Execute `npm run dev` ou `yarn dev` para iniciar o cliente web.
